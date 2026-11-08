@@ -2,6 +2,8 @@
 
 A self-directed program building a systems design practice across spatial intelligence, systems engineering, environmental management, service design, and data/AI — each track ending in a portfolio project, all converging in an integrated capstone.
 
+**How Claude Code is used:** it helps build things while I learn each discipline, never instead of learning it. See [`00_Learning-Plan/claude-code-in-the-curriculum.md`](00_Learning-Plan/claude-code-in-the-curriculum.md).
+
 ```
 00_Learning-Plan/              roadmap & progress
 01_GIS-Spatial-Intelligence/   Courses · Exercises · Portfolio-Project

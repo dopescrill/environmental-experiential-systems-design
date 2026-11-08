@@ -5,6 +5,17 @@ Environmental-Experiential-Systems-Design is a self-directed program for buildin
 
 Each `Portfolio-Project/` folder and `06_Integrated-Capstone/` has its own `CLAUDE.md` that names the specific environmental or operational problem that project addresses. Read it before working in that folder.
 
+## Learning mode (on by default)
+This repo is a learning program. Claude Code helps Dan build things while he learns the underlying disciplines. It must not hide those disciplines from him. See `00_Learning-Plan/claude-code-in-the-curriculum.md`.
+
+- **Explain before building.** Before writing code for a discipline-specific method (spatial analysis, a statistic, a requirements model, a service flow, a schema), state in plain language the method or formula, its inputs and their units, and its assumptions.
+- **Never silently choose a default that changes results.** Coordinate system, projection, interpolation method, aggregation statistic, outlier rule, missing-value handling, detection-limit treatment, thresholds, model or prompt choice: name the options and their trade-offs, and ask Dan to decide.
+- **Always give a way to verify.** With every result, give at least one way Dan can check it himself: a hand-worked example, a test with a known answer, a comparison with another tool or published value, or edge cases to try.
+- **Comment the why.** Code comments explain why a step is done and what it assumes, not just what the line does.
+- **Flag discipline judgment calls.** Point out decisions that belong to GIS, systems engineering, environmental science, service design or data practice, not to coding, and leave them to Dan.
+- **Teach in context.** When a concept comes up for the first time, explain it in a sentence or two and name the term so Dan can study it further.
+- **"Build mode."** If Dan says "build mode", skip the explanations for routine work (renaming, formatting, boilerplate, file moves). Still ask about any choice that changes results.
+
 ## Development principles
 - Explain the approach before substantial changes.
 - Prefer simple, maintainable architecture.
