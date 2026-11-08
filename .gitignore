@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+._*
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# Large / raw data — keep local, document source in a README
+data/raw/
+**/data/large/
+*.gdb/
+*.tif
+*.tiff
+*.las
+*.laz
+*.gpkg
+*.sqlite
+*.db
+*.mp4
+*.mov
+*.zip
+
+# GIS app scratch
+*.lock
+*.qgz~
+*.aux.xml
+
+# Design app caches
+*.sketch~
