@@ -58,3 +58,4 @@ Record of the software environment used for EESD work. Update this file whenever
 | Date | Change |
 |---|---|
 | 2026-11-08 | Initial install, QGIS 4.2.3 |
+| 2026-11-08 | Smoke test passed (Python console, GDAL, PROJ/EPSG:2964, GDAL + GRASS providers) |
