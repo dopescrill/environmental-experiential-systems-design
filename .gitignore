@@ -11,7 +11,7 @@ venv/
 .env
 
 # Large / raw data — keep local, document source in a README
-data/raw/
+**/data/raw/
 **/data/large/
 *.gdb/
 *.tif

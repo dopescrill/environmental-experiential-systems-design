@@ -7,6 +7,7 @@ Record of the software environment used for EESD work. Update this file whenever
 - **Recorded:** 2026-11-08
 - **Installed from:** official macOS installer, `qgis_pr_final-4_2_3.dmg` (download.qgis.org), regular release (not LTR)
 - **QGIS profile:** EESD
+- **Profile folder (not in git):** `/Users/danielmeier/Library/Application Support/QGIS/QGIS4/profiles/EESD/`. It holds machine-specific settings and possibly saved credentials. Export individual items (styles, models) into the repo instead.
 
 | Item | Version |
 |---|---|
@@ -59,3 +60,5 @@ Record of the software environment used for EESD work. Update this file whenever
 |---|---|
 | 2026-11-08 | Initial install, QGIS 4.2.3 |
 | 2026-11-08 | Smoke test passed (Python console, GDAL, PROJ/EPSG:2964, GDAL + GRASS providers) |
+| 2026-11-09 | Created EESD QGIS profile; profile picker set at startup |
+| 2026-11-09 | Verified core plugins active in EESD profile (processing, grassprovider, MetaSearch, db_manager_community) |
