@@ -62,3 +62,4 @@ Record of the software environment used for EESD work. Update this file whenever
 | 2026-11-08 | Smoke test passed (Python console, GDAL, PROJ/EPSG:2964, GDAL + GRASS providers) |
 | 2026-11-09 | Created EESD QGIS profile; profile picker set at startup |
 | 2026-11-09 | Verified core plugins active in EESD profile (processing, grassprovider, MetaSearch, db_manager_community) |
+| 2026-11-09 | Downloaded QGIS sample data (Alaska) to 01_GIS-Spatial-Intelligence/data/raw/ (git-ignored); provenance in data/README.md |
