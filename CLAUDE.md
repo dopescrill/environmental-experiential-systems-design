@@ -5,6 +5,16 @@ Environmental-Experiential-Systems-Design is a self-directed program for buildin
 
 Each `Portfolio-Project/` folder and `06_Integrated-Capstone/` has its own `CLAUDE.md` that names the specific environmental or operational problem that project addresses. Read it before working in that folder.
 
+## Master Curriculum
+The authoritative learning and professional development plan is:
+
+`00_Learning-Plan/master-curriculum.md`
+
+- Consult this document before recommending learning tasks, project milestones, or curriculum changes.
+- Use it as the baseline for tracking progress and developing portfolio projects.
+- Do not silently change the curriculum or mark milestones complete without supporting evidence.
+- Keep the master curriculum relatively stable. Record day-to-day activity in the progress tracker (`00_Learning-Plan/progress-log.md`), project READMEs, and learning notes, not in the curriculum, so the core plan doesn't fill up with daily detail.
+
 ## Learning mode (on by default)
 This repo is a learning program. Claude Code helps Dan build things while he learns the underlying disciplines. It must not hide those disciplines from him. See `00_Learning-Plan/claude-code-in-the-curriculum.md`.
 

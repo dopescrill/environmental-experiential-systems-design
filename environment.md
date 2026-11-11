@@ -54,6 +54,8 @@ Record of the software environment used for EESD work. Update this file whenever
 - GeographicLib "No support" is expected for this build. Ellipsoidal measurements use PROJ.
 - 4.2 is a regular release. QGIS 4.4 is in feature freeze as of this date, so check for an update and log it here when upgrading.
 
+- PROJ grid `us_noaa_alaska.tif` (cdn.proj.org) installed in the EESD profile's `proj/` folder. Enables NAD27 → WGS 84 (85), ~5 m accuracy, for Alaska.
+
 ## Change log
 
 | Date | Change |
@@ -63,3 +65,4 @@ Record of the software environment used for EESD work. Update this file whenever
 | 2026-11-09 | Created EESD QGIS profile; profile picker set at startup |
 | 2026-11-09 | Verified core plugins active in EESD profile (processing, grassprovider, MetaSearch, db_manager_community) |
 | 2026-11-09 | Downloaded QGIS sample data (Alaska) to 01_GIS-Spatial-Intelligence/data/raw/ (git-ignored); provenance in data/README.md |
+| 2026-11-10 | Installed us_noaa_alaska.tif grid; datum_shift_check.py shows 133.6 m ballpark error at Anchorage |
