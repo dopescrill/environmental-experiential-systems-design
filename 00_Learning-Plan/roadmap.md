@@ -62,7 +62,7 @@ gantt
 **Milestones**
 - [ ] Install QGIS and a Python environment (GeoPandas) for Phase 1; record the setup in `05_Data-Software-AI/Python/README.md`
 - [ ] Complete one practice exercise end to end with the template, on any small dataset
-- [ ] Create `progress-log.md`
+- [x] Create `progress-log.md`
 
 ---
 
